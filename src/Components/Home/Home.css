@@ -1,0 +1,21 @@
+.home{
+   
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+ 
+}
+
+.Intro{
+  
+    height: 100vh;
+
+    /* background-image: ; */
+}
+
+.Second{
+    height: 100vh;
+    
+}

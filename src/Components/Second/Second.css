@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans&display=swap');
+.secondCont{
+    height: 100vh;
+   
+}
+
+.left{
+   
+    height: 80%;
+    width: 50%;
+    
+}
+
+.TitleS{
+    color: rgb(30, 44, 83);
+    font-size: 45px;
+    font-family: 'Anuphan', sans-serif;
+    font-weight: bold;
+}
+
+#subTitleS{
+    color: rgba(19, 27, 49 , 0.7);
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    border-left: 2px solid rgb(30, 44, 83);
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+#Stext{
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 22px;
+}
+
+.MeetBtn{
+    border: 2px solid rgb(32, 198, 186);
+    height: 50px;
+    width: 190px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(32, 198, 186);
+    background: transparent;
+}
+
+.MeetBtn:hover{
+   background-color: rgb(32, 198, 186);
+   color: white;
+   transition: .4s ease-in-out;
+}
