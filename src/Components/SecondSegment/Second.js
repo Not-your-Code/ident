@@ -2,10 +2,11 @@ import React from 'react'
 import './Second.css'
 export default function Second() {
     return (
-        <div className='container secondCont d-flex flex-coiumn flex-lg-row mt-5 gap-4'>
-            <div className='left align-self-start mt-5 d-flex gap-5 flex-column '>
+        <div className='Segment'>
+            <div className='container container-sm-auto mainCont'>
+            <div className='left'>
                 <div className='TitleS'>
-                    Improving the Quality of <br/> Your Life through Better  <br/>Health
+                    Improving the Quality of Your Life through Better Health
                 </div>
                 <div id='subTitleS'>
                     Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and to be the first and best choice for healthcare.
@@ -17,9 +18,10 @@ export default function Second() {
                     <button className="MeetBtn">Meet Our Doctors</button>
                 </div>
             </div>
-            <div className='right align-self-end'>
-                <img src={require('../Assests/sliders/video.jpg')}/>
-            </div>
+            <div className='right'>
+                
+                <img src={require('../Assests/sliders/video.jpg')} id="img"/>
+            </div></div>
         </div>
     )
 }

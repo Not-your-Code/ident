@@ -38,9 +38,9 @@ export default function Navbar() {
 
 
         // </nav>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav sticky-top">
             <div class="container-fluid d-flex align-items-center">
-                <a class="navbar-brand "  >
+                <a class="navbar-brand logo"  >
                 <img src={require('../Assests/logo/logo.png')} />
                 </a>
                 {/*  */}

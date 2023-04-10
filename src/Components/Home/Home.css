@@ -1,21 +1,56 @@
-.home{
-   
+.home{  
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
- 
 }
 
-.Intro{
-  
-    height: 100vh;
-
-    /* background-image: ; */
+.FirstSegement{
+    height: 85vh;
 }
 
-.Second{
+.SecondSegment{
     height: 100vh;
+    width: 100vw;
     
 }
+/* .ThirdSegment{
+    height: 100vh;
+    z-index: 0;
+   */
+
+@media(min-width: 575px){
+    .SecondSegment{
+        height: 190vh;
+        margin-left: 0;
+       }
+}
+@media (max-width: 575.98px) {
+    /* CSS styles to be applied */
+   .SecondSegment{
+    height: 150vh;
+    
+   }
+  
+  }
+  
+  /* Small Devices (576px - 767px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS styles to be applied */
+    .SecondSegment{
+        height: 150vh;
+      
+       }
+      
+  }
+  
+  /* Medium Devices (768px - 991px) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* CSS styles to be applied */
+    .SecondSegment{
+        height: 150vh;
+       
+       }
+      
+  }
