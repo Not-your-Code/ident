@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Providing() {
   return (
     <div className='provide'>
-      <div className='container ThirdCont py-5'>
-        <div className='backImg container-auto ContInfo'>
+      <div className='container ThirdCont'>
+        <div className='backImg ContInfo'>
             <div id='ProvideTitle'>
-             <p>Providing Care For The <br/> Sickest In Community.</p> 
+             <p>Providing Care For The Sickest In Community.</p> 
             </div>
             <div id='leftInfo'>
                 <div id='ProvideSub'>
@@ -24,51 +24,76 @@ export default function Providing() {
             </div>
         </div>
        <div className='Cards'>
-        <div className='row gap-4'>
-        <div className='col'>
+       <div className='row gap-4'>
+        <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+          
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+          
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
+          
+         
          
         </div>
-        <div className='row gap-4'>
-        <div className='col'>
+        <div className='row gap-4 row2'>
+        <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+          
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-           <div className='col'>
+          
+           <div className='col ProvideCol'>
            <FontAwesomeIcon icon={faUserDoctor} size="2xl" style={{color: "#80ffbd",}} className='icon'/>
            <p className='CardText'>Medical Advices & <br/>
             Checkups</p>
+            <FontAwesomeIcon icon={faUserDoctor}  style={{color: "#80ffbd"}} className='icon-background'/>
            </div>
-          </div>
+          
+         
+         
+        </div>
+
+       </div>
+       <div className='Providetext'>
+        <p> Serve the community by improving the quality of life through better health.
+           We have put protocols to protect our patients and  staff while continuing to provide medically necessary care
+          
+           </p>
+           <p id='contact'>Contact For More </p>
        </div>
       </div>
        

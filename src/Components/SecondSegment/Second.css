@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans&display=swap');
 
+
+
 .mainCont{
     display: flex;
-    padding: 40px;
+    justify-content: space-evenly;
     height: 100vh;
-    gap: 40px;
+    padding-inline: 0;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+   
    
 }
 .left{
      display: flex;
      flex-direction: column;
      gap: 30px;
-     
-    
-   
-    
 }
 
 #img{
     border-radius: 20px;
+    height: 600px;
 }
 
 .right{
@@ -69,84 +72,133 @@
 }
 
 
-
-/* Extra Small Devices (less than 576px) */
-@media (max-width: 575.98px) {
-    /* CSS styles to be applied */
+@media(max-width:390px){
+     
     .mainCont{
         flex-direction: column;
-        height: 100%;
-        margin-left: 5px;   
-        width: 100vw;
-    }
-    .right{
+        margin-left: 15px;
+     }
+     .TitleS{
+        font-size: 25px;
+     }
+     #subTitleS{
+        font-size: 14px;
+     }
+     #Stext{
+        font-size: 13px;
+     }
+     .left{
+        width: 95vw;
+     }
+ 
+     .right{
         align-self: normal;
-    }
+     }
     #img{
-        height: 350px;
-    }
+        height: 130px;
+     }
+}
+/* Extra Small Devices (less than 576px) */
+@media (max-width: 575.98px ) and (min-width: 390px) {
+    
+
+     
+     .mainCont{
+        flex-direction: column;
+        margin-left: 15px;
+     }
+     .TitleS{
+        font-size: 25px;
+     }
+     #subTitleS{
+        font-size: 14px;
+     }
+     #Stext{
+        font-size: 13px;
+     }
+     .left{
+        width: 95vw;
+     }
+     #img{
+        height: 300px;
+     }
+     .right{
+        align-self: normal;
+     }
   
   }
   
   /* Small Devices (576px - 767px) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    /* CSS styles to be applied */
     .mainCont{
         flex-direction: column;
-        height: 100%;
-        margin-left: 0px;
-        width: 100vw;
-    }
-    .right{
-        align-self: normal;
-    }
-    #img{
+        margin-left: 20px;
+     }
+     .TitleS{
+        font-size: 45px;
+     }
+   
+    
+     .left{
+        width: 95vw;
+     }
+     #img{
         height: 400px;
-    }
+     }
+     .right{
+        align-self: normal;
+     }
+
   }
   
   /* Medium Devices (768px - 991px) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    /* CSS styles to be applied */
+     
     .mainCont{
-      
         flex-direction: column;
-        height: 100%;
-        margin-left: 5px;
-        width: 100vw;
-             
+        margin-left: 20px;
+        border: 1px solid red;
+     }
+     .TitleS{
+        font-size: 45px;
+     }
    
-    }
-    .right{
+    
+     .left{
+        width: 95vw;
+     }
+     #img{
+        height: 400px;
+     }
+     .right{
         align-self: normal;
-    }
-    #img{
-        height: ;
-    }
+     }
 
   
   }
   
   /* Large Devices (992px - 1199px) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* CSS styles to be applied */
     .mainCont{
-       
-        width: 100vw;
+        padding-top: 20px;
     }
+  
 
   }
   @media (max-width: 1350px) {
-    /* CSS styles to be applied */
-    .left{
-     
-        width: 80vw;
-    }
+    .mainCont{
+        padding-top: 20px;
+      
+     }
+  
   }
   
   /* Extra Large Devices (1200px and higher) */
   @media (min-width: 1200px) {
-    /* CSS styles to be applied */
-  
+     
+    .mainCont{
+        padding-top: 20px;
+        
+     }
   }
   

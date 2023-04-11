@@ -29,9 +29,10 @@ export default function Introduction() {
     }, [backgroundImage]);
 
     return (
-        <>
-            <div className='container-fluid   intro' style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', height: '100%', width: '100vw', transition: 'background-image 1s ease-in-out', }}>
-                <div className="row vh-85 row1">
+     <>
+     <div className="Introduction" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', height: '85vh', width: '100vw', transition: 'background-image 1s ease-in-out', }}>
+            <div className='container  container-sm-auto  intro' >
+                <div className="row  row1">
                     <div className="bodyCard" >
                         <div className="card-body1">
                             <h5 className="card-title1">The Best Medical and General Practise Care !</h5>
@@ -41,13 +42,14 @@ export default function Introduction() {
                                 always be our priority, so we follow the best practices for cleanliness.
                             </p>
                             <div className="d-flex flex-row gap-5 justify-content-start">
-                                <button className="services">Our Services</button>
+                                <button className="services buttonIntro">Our Services</button>
 
 
-                                <button className="aboutBtn">More About Us</button>
+                                <button className="aboutBtn buttonIntro">More About Us</button>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
                 {/* <div className="row ">
                     <div className="col">
@@ -71,7 +73,7 @@ export default function Introduction() {
                               
                    
                 </div> */}
-                <div style={{ height: '100vh' }}></div>
+                
             </div>
 
         </>

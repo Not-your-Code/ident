@@ -13,32 +13,24 @@
     font-weight: normal;
     font-style: normal;
   }
-  
-.intro{
-    height: 100%;
-    width: 100%;
 
-}
+  
 
 .row1{
+ 
+  position: relative;
+  top: 200px;
+  width: 60%;
    
-    height: 90%;
-    padding-left: 350px;
    
 }
 
 .bodyCard{
-    position: relative;
-    top: 180px;
-    left: -45px;
-    width: 50vw;
-    height: 45vh;
-  
+ 
+
+    
     background: transparent;
-    
-    
-    
-    
+ 
 }
 .card-title1{
     font-family: 'Noto Sans', sans-serif;
@@ -187,73 +179,103 @@ button{
 
 }
 
-@media (max-width:1090px) {
-    .row1{
-        padding-left: 40px;
-    }
-    .container-fluid.intro {
-        margin-left: 0;
-      }
-    
-}
 
 /* Extra Small Devices (less than 576px) */
 @media (max-width: 575.98px) {
-    /* CSS styles to be applied */
-    .bodyCard{
-        width: 100vw;
-       
+    .Introduction{
+    height: 20%;
     }
-    .row1{
-        padding-left: 0px;
-    }
-    .card-subtitle{
-        font-size: 45px;
-    }
+   .row1{
+    width: 96vw;
+    margin-left: 0;
+   }
+   .bodyCard{
+    padding-inline: 0;
+   }
+   .card-title1{
+    font-size: 13px;
+   }
+   .card-subtitle{
+    font-size: 35px;
+   }
+   .text{
+    font-size: 12px;
+   }
+   .buttonIntro{
+    width: 130px;
+    font-size: 12px;
+   }
+   
   }
   
   /* Small Devices (576px - 767px) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    /* CSS styles to be applied */
-    .bodyCard{
-        width: 100vw;
+    .Introduction{
+        height: 60vh;
     }
-    .row1{
-        padding-left: 0px;
+    .intro{
+        margin-left: 13px;
     }
-    .card-subtitle{
-        font-size: 55px;
-    }
+   .row1{
+    width: 96vw;
+    margin-left: 0;
+   }
+   .bodyCard{
+    padding-inline: 0;
+   }
+   .card-title1{
+    font-size: 20px;
+   }
+   .card-subtitle{
+    font-size: 45px;
+   }
+   .text{
+    font-size: 16px;
+   }
+ 
+   
+   
   }
   
   /* Medium Devices (768px - 991px) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    /* CSS styles to be applied */
-    .bodyCard{
-        width: 100vw;
+   
+    .Introduction{
+        height: 60vh;
     }
-    .card-subtitle{
-        font-size: 65px;
+    .intro{
+        margin-left: 3rem;
     }
+   .row1{
+    width: 80vw;
+    margin-left: 0;
+   }
+   .bodyCard{
+    padding-inline: 0;
+   }
+   .card-title1{
+    font-size: 22px;
+   }
+   .card-subtitle{
+    font-size: 65px;
+   }
+
+ 
+  
   }
   
   /* Large Devices (992px - 1199px) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* CSS styles to be applied */
-    .row1{
-        padding-left: 60px;
-    }
-
+   
+   
   }
   @media (max-width:1200px) {
-    .row1{
-        padding-left: 60px;
-    }
+  
     
   }
   /* Extra Large Devices (1200px and higher) */
   @media (min-width: 1200px) {
-    /* CSS styles to be applied */
+   
    
   }
   

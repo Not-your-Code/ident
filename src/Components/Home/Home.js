@@ -6,6 +6,7 @@ import './Home.css'
 import Introduction from '../FirstSegement/Introduction'
 import Second from '../SecondSegment/Second'
 import Providing from '../ThidSegment/Providing'
+import HealthCare from '../FourthSegment/HealthCare'
 
 
 export default function Home() {
@@ -23,6 +24,9 @@ export default function Home() {
       </div>
       <div className='ThirdSegment'>
         <Providing />
+      </div>
+      <div className='FourthSegment'>
+        <HealthCare />
       </div>
     </div>
 
