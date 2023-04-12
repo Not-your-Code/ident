@@ -1,5 +1,5 @@
 import React from 'react'
-import './Second.css'
+import './SecondSegment.css'
 export default function Second() {
     return (
         <div className='Segment'>

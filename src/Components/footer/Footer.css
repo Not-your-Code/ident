@@ -1,0 +1,186 @@
+.footer{
+  
+   background-color: rgb(32, 48, 90);
+}
+.Cont{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+  
+}
+
+.FootRight{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 30%;
+    gap: 10px;
+}
+#make{
+    color: rgb(32,197,184);
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+    padding-bottom: 2px;
+
+
+}
+#make:hover{
+    text-decoration: underline;
+}
+
+#textFoot{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.FootMiddle{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: flex;
+   
+    gap: 5rem;
+}
+.FootMiddle > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.FootMiddle ul{   
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+   justify-content: start;
+    
+    list-style-type: none;
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #888888;
+    cursor: pointer;
+}
+
+.FootLeft{
+   background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+#footCard{
+   
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    border-left: 3px solid rgb(32,197,184);
+    background-color: white;
+
+   
+}
+
+
+@media (max-width:390px){
+    .Cont{
+        flex-direction: column;
+        height: 100%;
+      
+        
+    }
+    #textFoot{
+        font-size: 12px;
+    }
+    #image1 img{
+        width: 80px;
+    }
+    .FootRight , .FootMiddle {
+        width: 90vw;
+    }
+  .Departments , .Links{
+    font-size: 10px;
+  }
+.FootLeft{
+    height: 20vh;
+    
+}
+}
+/* Extra Small Devices (less than 576px) */
+
+/* Small Devices (576px - 767px) */
+@media (min-width: 576px) and (max-width:767px){
+
+    .Cont{
+        flex-direction: column;
+        height: 100%;
+      
+        
+    }
+    #textFoot{
+        font-size: 12px;
+    }
+    #image1 img{
+        width: 80px;
+    }
+    .FootRight , .FootMiddle {
+        width: 90vw;
+    }
+  .Departments , .Links{
+    font-size: 10px;
+  }
+.FootLeft{
+    height: 20vh;
+    
+}
+  
+
+}
+
+/* Medium Devices (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .Cont{
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    #textFoot{
+        font-size: 15px;
+    }
+    #image1 img{
+        width: 100px;
+    }
+    .FootRight , .FootMiddle {
+        width: 95vw;
+    }
+  .Departments , .Links{
+    font-size: 15px;
+  }
+.FootLeft{
+    height: 25vh;
+  
+}
+
+
+
+
+}
+
+/* Large Devices (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+@media (max-width:1200px) {
+
+ 
+}
+/* Extra Large Devices (1200px and higher) */
+@media (min-width: 1200px) {
+
+
+}

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Noto+Sans&display=swap');
 
-
-
+.Segment{
+  
+}
 .mainCont{
     display: flex;
     justify-content: space-evenly;
-    height: 100vh;
+    user-select: none;
     padding-inline: 0;
+    
     gap: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
@@ -20,7 +22,7 @@
 }
 
 #img{
-    border-radius: 20px;
+   border-radius: 20px 20px 20px 20px;
     height: 600px;
 }
 
@@ -48,7 +50,7 @@
 
 #Stext{
     font-family: 'Noto Sans', sans-serif;
-    padding-left: 22px;
+    padding-left: 20px;
     color: #213360;
    
 }
@@ -75,17 +77,21 @@
 @media(max-width:390px){
      
     .mainCont{
+     
         flex-direction: column;
-        margin-left: 15px;
+        margin-left:25px;
+
      }
      .TitleS{
-        font-size: 25px;
+        font-size: 6vw;
      }
      #subTitleS{
-        font-size: 14px;
+        font-size: 3.5vw;
+        padding-left: 10px;
      }
      #Stext{
-        font-size: 13px;
+        font-size: 3vw;
+        padding-left: 10px;
      }
      .left{
         width: 95vw;
@@ -108,14 +114,16 @@
         margin-left: 15px;
      }
      .TitleS{
-        font-size: 25px;
-     }
-     #subTitleS{
-        font-size: 14px;
-     }
-     #Stext{
-        font-size: 13px;
-     }
+      font-size: 6vw;
+   }
+   #subTitleS{
+      font-size: 4vw;
+      padding-left: 10px;
+   }
+   #Stext{
+      font-size: 3vw;
+      padding-left: 10px;
+   }
      .left{
         width: 95vw;
      }
@@ -157,7 +165,7 @@
     .mainCont{
         flex-direction: column;
         margin-left: 20px;
-        border: 1px solid red;
+        
      }
      .TitleS{
         font-size: 45px;

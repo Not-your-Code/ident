@@ -3,31 +3,33 @@ import Navbar from '../Navbar/Navbar'
 import TopContent from '../Navbar/TopContent/TopContent'
 
 import './Home.css'
-import Introduction from '../FirstSegement/Introduction'
-import Second from '../SecondSegment/Second'
+import FirstSegment from '../FirstSegement/FirstSegment'
+import SecondSegment from '../SecondSegment/SecondSegment'
 import Providing from '../ThidSegment/Providing'
-import HealthCare from '../FourthSegment/HealthCare'
+import FourthSegment from '../FourthSegment/FourthSegment'
+import Footer from '../footer/Footer'
 
 
 export default function Home() {
   return (
-    <div className='container-auto home d-flex flex-column'>
+    <div className='container-auto home'>
       <div>
         <TopContent />
         <Navbar />
       </div>
       <div className='FirstSegement'>
-        <Introduction />
+        <FirstSegment />
       </div>
       <div className='SecondSegment'>
-        <Second />
+        <SecondSegment/>
       </div>
       <div className='ThirdSegment'>
         <Providing />
       </div>
-      <div className='FourthSegment'>
-        <HealthCare />
+       <div className='FourthSegment'>
+        <FourthSegment />
       </div>
+      
     </div>
 
   )

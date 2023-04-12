@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './Introduction.css'
+import './FirstSegment.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faTooth } from '@fortawesome/free-solid-svg-icons'
@@ -29,29 +29,33 @@ export default function Introduction() {
     }, [backgroundImage]);
 
     return (
-     <>
-     <div className="Introduction" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', height: '85vh', width: '100vw', transition: 'background-image 1s ease-in-out', }}>
-            <div className='container  container-sm-auto  intro' >
-                <div className="row  row1">
-                    <div className="bodyCard" >
-                        <div className="card-body1">
-                            <h5 className="card-title1">The Best Medical and General Practise Care !</h5>
-                            <h6 className="card-subtitle">{IntroString}</h6>
-                            <p className="text">
-                                The health and well-being of our patients and their health care team will 
+        <>
+           <div className="Introduction">
+                <div className='container  intro' >
+                    <div className="BodyIntro">
+                        <div id="SubTitleDiv">
+                            <p id="SubTitleIntro">The Best Medical and General Practise Care</p>
+                        </div>
+                        <div id="MainTitleDiv">
+                            <p id="MainTitleIntro">{IntroString}</p>
+                        </div>
+                        <div id="TextDiv">
+                            <p id="TextIntro">  The health and well-being of our patients and their health care team will
                                 always be our priority, so we follow the best practices for cleanliness.
                             </p>
-                            <div className="d-flex flex-row gap-5 justify-content-start">
-                                <button className="services buttonIntro">Our Services</button>
-
-
-                                <button className="aboutBtn buttonIntro">More About Us</button>
-                            </div>
+                        </div>
+                        <div className="buttonsDiv">
+                            <button className="services buttonIntro">Our Services</button>
+                            <button className="aboutBtn buttonIntro">More About Us</button>
                         </div>
                     </div>
                 </div>
-                </div>
-                {/* <div className="row ">
+            </div>
+        </>
+    );
+}
+
+{/* <div className="row ">
                     <div className="col">
                         <div class="aboutlist d-flex flex-row gap-5 justify-content-evenly">
                             <div className="left align-self-baseline justify-content-center">
@@ -73,10 +77,17 @@ export default function Introduction() {
                               
                    
                 </div> */}
-                
-            </div>
-
-        </>
-
-    );
-}
+{/* <div className="bodyCard" >
+                        <div className="card-body1">
+                            <h5 className="card-title1">The Best Medical and General Practise Care !</h5>
+                            <h6 className="card-subtitle">{IntroString}</h6>
+                            <p className="text">
+                                The health and well-being of our patients and their health care team will 
+                                always be our priority, so we follow the best practices for cleanliness.
+                            </p>
+                            <div className="d-flex flex-row gap-5 justify-content-start">
+                                <button className="services buttonIntro">Our Services</button>
+                                <button className="aboutBtn buttonIntro">More About Us</button>
+                            </div>
+                        </div>
+                    </div> */}
