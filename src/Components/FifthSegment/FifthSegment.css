@@ -1,0 +1,322 @@
+:root{
+    --MainColor : #0e204d;
+    --lighGreen : rgb(32,197,184);
+    --bodyColor : #848e9f;
+    --font: Quicksand, sans-serif;
+    
+    --paddingSm: 5px;
+    --paddingMd: 10px;
+    --paddingLg: 15px;
+    --paddingXl : 40px;
+
+
+/* media fontsizes and box sizes */
+
+  /* xss */
+ --marginLeftXss : 15px;
+
+}
+
+.Meet{
+    
+    height: 100%;
+    width: 100vw;
+}
+.meet{
+    padding: var(--paddingXl);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 40px;
+}
+#MeetTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 37px;
+    font-weight: 700;
+    font-family: var(--font);
+    color: var(--MainColor);
+    padding-bottom: var(--paddingMd);
+}
+
+h3{
+    
+    width: 80%;
+    font-size: 20px;
+    color: var(--bodyColor);
+    text-align: center;
+
+}
+#Doctors{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    
+}
+#Doctor_img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.CardDoctor{
+    cursor:pointer;
+    background-color: white;
+    width: 29%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease-in-out;
+    border-radius: 20px;
+}
+#AboutDoctor{
+    padding: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+}
+#Doctor_des{
+   
+    width: 95%;
+}
+
+h5{
+    font-family: var(--font);
+    color: var(--MainColor);
+}
+#Doctor_post{
+    color: var(--lighGreen) ;
+    font-family: var(--font);
+}
+#Doctor_des{
+    color: var(--bodyColor);
+    font-size: 16px;
+}
+#linksDoctor{
+
+    width: 70%;
+    justify-content: space-between;
+   
+    padding-bottom: var(--paddingMd);
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 25px;
+}
+
+.img2{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    height: 25px;
+}
+.CardDoctor:hover .img2{
+    opacity: 1;
+}
+
+.CardDoctor:hover .img1{
+    opacity: 1;
+  }
+
+.readBtn{
+    width: 130px;
+    height: 40px;
+}
+
+.readBtn{
+    cursor: pointer;
+   border: none;
+   font-family: 'Schibsted Grotesk' , sans-serif;
+   outline: none;
+   background-color: var(--MainColor);
+   color: white;
+ 
+   border-radius: 30px;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   z-index:1;
+   
+
+}
+
+.readBtn:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--lighGreen);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s linear;
+    z-index:-1;
+    
+
+}
+
+
+
+.readBtn:hover::before {
+    transform: scaleX(1);
+  }
+
+.CardDoctor:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+    transform: translatey(-10px);
+    transition: .3s ease;
+
+}
+
+
+
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .meet{
+            padding-left: var(--marginLeftXss);
+            padding-right: var(--marginLeftXss);
+        }
+        h1{
+            font-size: 20px;
+        }
+        h3{           
+            text-align: center;
+            font-size: .8rem;
+        }
+       #Doctors{
+        
+        gap: 20px;  
+    }
+
+        .CardDoctor{
+            width: 100%;
+            
+            
+        }
+      #linksDoctor{
+       
+        width: 80%;
+      }
+       
+    
+       
+    }
+
+
+/* // Medium Screens */
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .meet{
+            padding-left: var(--marginLeftXss);
+            padding-right: var(--marginLeftXss);
+        }
+        h1{
+            font-size: 20px;
+        }
+        h3{           
+            text-align: center;
+            font-size: .8rem;
+        }
+       #Doctors{
+        
+        gap: 20px;  
+    }
+
+        .CardDoctor{
+            width: 100%;
+            
+        }
+      
+       
+        .Card2{
+            display: none;
+        }
+        #linksDoctor{
+       
+            width: 80%;
+          }
+           
+    }
+
+/* 
+// Small Screens */
+
+    @media (min-width: 576px) and (max-width: 767px) {
+        .meet{
+            padding-left: var(--marginLeftXss);
+            padding-right: var(--marginLeftXss);
+        }
+        h1{
+            font-size: 20px;
+        }
+        h3{           
+            text-align: center;
+            font-size: .8rem;
+        }
+       #Doctors{
+        
+        gap: 20px;  
+    }
+
+        .CardDoctor{
+            width: 100%;
+            
+        }
+      
+       
+        .Card2{
+            display: none;
+        }
+        #linksDoctor{
+         
+            width: 90%;
+          }
+           
+        
+    }
+
+
+/* // Extra Small Screens */
+
+    @media (min-width: 320px) and (max-width: 575px) {
+        .meet{
+            padding-left: var(--marginLeftXss);
+            padding-right: var(--marginLeftXss);
+        }
+        h1{
+            font-size: 20px;
+        }
+        h3{           
+            text-align: center;
+            font-size: .8rem;
+        }
+       
+        .CardDoctor{
+            width: 100%;
+        }
+      
+        .Card1{
+            display: none;
+        }
+        .Card2{
+            display: none;
+        }
+        #linksDoctor{
+       
+            width: 80%;
+          }
+           
+    }
+
+/* // Mobile Phones and tablets  */
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        
+    }

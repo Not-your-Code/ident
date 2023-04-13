@@ -2,7 +2,6 @@
 .provide{
     height: 100%;
     width: 100vw;
-  
  background-size: cover;
     background-image: url('../Assests/Background/2.jpg');
    user-select: none;

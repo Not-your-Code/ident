@@ -8,7 +8,7 @@ import SecondSegment from '../SecondSegment/SecondSegment'
 import Providing from '../ThidSegment/Providing'
 import FourthSegment from '../FourthSegment/FourthSegment'
 import Footer from '../footer/Footer'
-
+import FifthSegment from '../FifthSegment/FifthSegment'
 
 export default function Home() {
   return (
@@ -28,6 +28,9 @@ export default function Home() {
       </div>
        <div className='FourthSegment'>
         <FourthSegment />
+      </div>
+      <div className='FifthSegment'>
+        <FifthSegment />
       </div>
       
     </div>
