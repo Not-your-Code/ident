@@ -9,6 +9,7 @@ import Providing from '../ThidSegment/Providing'
 import FourthSegment from '../FourthSegment/FourthSegment'
 import Footer from '../footer/Footer'
 import FifthSegment from '../FifthSegment/FifthSegment'
+import SixthSegment from '../SixthSegment/SixthSegment'
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
       </div>
       <div className='FifthSegment'>
         <FifthSegment />
+      </div>
+      <div className='SixthSegment'>
+        <SixthSegment />
       </div>
       
     </div>

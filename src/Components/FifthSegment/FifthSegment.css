@@ -18,9 +18,9 @@
 }
 
 .Meet{
-    
+
     height: 100%;
-    width: 100vw;
+    width:100vw;
 }
 .meet{
     padding: var(--paddingXl);
@@ -28,6 +28,7 @@
     flex-direction: column;
     width: 100vw;
     gap: 40px;
+    border-bottom: 1px solid var(--bodyColor);
 }
 #MeetTitle{
     display: flex;
